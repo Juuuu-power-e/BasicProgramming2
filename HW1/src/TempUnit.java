@@ -23,12 +23,13 @@ public class TempUnit {
     }
 
     private static void celToFa() {
-        float temp = Float.parseFloat(input("섭씨 온도를 입력하세요: "));
-        System.out.printf("%.2");
+        float temp = Float.parseFloat(input("섭씨 온도를 입력하세요: "))*1.8f + 32;
+        System.out.printf("화씨 온도는 %.2f 입니다.", temp);
     }
 
     private static void faToCel() {
-        float temp = Float.parseFloat(input("화씨 온도를 입력하세요: "));
+        float temp = (Float.parseFloat(input("화씨 온도를 입력하세요: "))- 32)/1.8f;
+        System.out.printf("섭씨 온도는 %.2f 입니다.", temp);
     }
 
 
