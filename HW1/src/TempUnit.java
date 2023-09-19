@@ -24,7 +24,7 @@ public class TempUnit {
 
     private static void celToFa() {
         float temp = Float.parseFloat(input("섭씨 온도를 입력하세요: "));
-
+        System.out.printf("%.2");
     }
 
     private static void faToCel() {
