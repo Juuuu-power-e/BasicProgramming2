@@ -6,10 +6,10 @@ public class TempUnit {
         scanner = new Scanner(System.in);
         identify(1);
         line();
-        System.out.println("1. í™”ì”¨ =>  ì„­ì”¨");
-        System.out.println("2. ì„­ì”¨ =>  í™”ì”¨");
+        System.out.println("1. È­¾¾ =>  ¼·¾¾");
+        System.out.println("2. ¼·¾¾ =>  È­¾¾");
         line();
-        switch (input("ë²ˆí˜¸ë¥¼ ì„ íƒí•˜ì‹œì˜¤: ")){
+        switch (input("¹øÈ£¸¦ ¼±ÅÃÇÏ½Ã¿À: ")){
             case "1" :
                 faToCel();
                 break;
@@ -17,24 +17,24 @@ public class TempUnit {
                 celToFa();
                 break;
             default:
-                System.out.println("ë²ˆí˜¸ë¥¼ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤.");
+                System.out.println("¹øÈ£¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.");
         }
 
     }
 
     private static void celToFa() {
-        float temp = Float.parseFloat(input("ì„­ì”¨ ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: "))*1.8f + 32;
-        System.out.printf("í™”ì”¨ ì˜¨ë„ëŠ” %.2f ì…ë‹ˆë‹¤.", temp);
+        float temp = Float.parseFloat(input("¼·¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: "))*1.8f + 32;
+        System.out.printf("È­¾¾ ¿Âµµ´Â %.2f ÀÔ´Ï´Ù.", temp);
     }
 
     private static void faToCel() {
-        float temp = (Float.parseFloat(input("í™”ì”¨ ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: "))- 32)/1.8f;
-        System.out.printf("ì„­ì”¨ ì˜¨ë„ëŠ” %.2f ì…ë‹ˆë‹¤.", temp);
+        float temp = (Float.parseFloat(input("È­¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: "))- 32)/1.8f;
+        System.out.printf("¼·¾¾ ¿Âµµ´Â %.2f ÀÔ´Ï´Ù.", temp);
     }
 
 
     public static void identify(int n){
-        System.out.println("<< ê³¼ì œ "+n+" - ì´ìŠ¹ì£¼ 60191676 >>");
+        System.out.println("<< °úÁ¦ "+n+" - ÀÌ½ÂÁÖ 60191676 >>");
     }
     public static void line(){
         System.out.println("====================================");
