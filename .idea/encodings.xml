@@ -8,5 +8,20 @@
     <file url="file://$PROJECT_DIR$/HW2/src/RectangleApp.java" charset="EUC-KR" />
     <file url="file://$PROJECT_DIR$/HW3/src/Calculator.java" charset="EUC-KR" />
     <file url="file://$PROJECT_DIR$/HW3/src/CustomerList.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW4/src/ColorPoint.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW4/src/ColorTV.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW4/src/IPTV.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW4/src/Point.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW4/src/TV.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW5/src/Circle.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW5/src/Oval.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW5/src/Rect.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW5/src/Shape.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/HW5/src/Shapes.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Middle/src/Circle.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Middle/src/Converter.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Middle/src/Rectangle.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Middle/src/Shape.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Middle/src/ShapeSet.java" charset="EUC-KR" />
   </component>
 </project>
