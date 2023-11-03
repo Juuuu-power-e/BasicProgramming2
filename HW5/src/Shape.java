@@ -1,3 +1,4 @@
+/* 과제 #5-1 이승주/60191676 */
 public interface Shape {
     final double PI = 3.14;
     void draw();

@@ -1,3 +1,4 @@
+/* 과제 #5-1 이승주/60191676 */
 public class Oval implements Shape {
     int a, b;
     public Oval(int a, int b) {

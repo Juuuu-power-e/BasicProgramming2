@@ -1,5 +1,7 @@
+/* 苞力 #5-1 捞铰林/60191676 */
 public class Shapes {
     public static void main(String[] args) {
+        System.out.println("< 苞力 #5-1 捞铰林/60191676 >");
         Shape[] list = new Shape[3];
         list[0] = new Circle(10);
         list[1] = new Oval(50,40);

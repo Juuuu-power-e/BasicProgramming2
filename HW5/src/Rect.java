@@ -1,3 +1,4 @@
+/* 과제 #5-1 이승주/60191676 */
 public class Rect implements Shape {
     int x, y;
     public Rect(int x, int y) {
